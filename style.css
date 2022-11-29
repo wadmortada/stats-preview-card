@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0E0E0E;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-content {
+    background: #1C1938;
+    color: white;
+    padding: 4rem 5rem 3.5rem 3.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width: 510px;
+    height: 400px;
+}
+
+h1 {
+    font-weight: 400px;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+}
+span {
+    color: #A55DD3;
+}
+
+.card-details {
+    font-size: 14px;
+    padding-bottom: 3rem;
+    padding-right: 1rem;
+    color: lightgray;
+}
+
+.card-price {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.card-price p {
+    color: lightgray;
+}
+
+.card-img {
+    width: 485px;
+    height: 400px;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
